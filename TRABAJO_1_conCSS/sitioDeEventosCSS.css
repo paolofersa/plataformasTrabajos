@@ -1,0 +1,85 @@
+/*ENCABEZADO*/
+head {
+    top: 0px;
+    width: 100%;
+    font-family: fantasy;
+    background-color: white;
+}
+h1 {
+    color: rgb(168, 79, 61);
+}
+/*APARTADO PARA PESTAÑAS*/
+#pestania {
+    top: 70px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(29,45,60);
+    color: white;
+    text-align: right;
+}
+#pestania > p > a:link{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#pestania > p > a:visited{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#pestania > p > a:active{
+    background-color: gray;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+#pestania > p > a:hover{
+    background-color: gray;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/*SECCION DE PAGINA PRINCIPAL*/
+#bienvenidosImg{
+    height: 100%;
+    width: 100%;
+    position: static;
+    left: 0;
+}
+#bienvenidosTxt{
+    position: absolute;
+    top: 420px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: #efefef;
+    opacity: 0.5;
+    z-index: 1;
+}
+/*CATEGORÍAS DE EVENTOS*/
+H3 {
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+}
+hr{
+    height: 3px;
+    background-color: rgb(237, 206, 30);
+    width: 25%;
+}
+.columna1de3, .columna2de3, .columna3de3{
+    background-color: white;
+    width: 400px;
+    float: left;
+}
+/*FORMATO DE LINKS*/
+a:link, a:visited, a:active, a:hover{
+    text-decoration: none;
+    color: black;
+}
