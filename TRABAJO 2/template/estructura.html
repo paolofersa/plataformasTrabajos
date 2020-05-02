@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centro de Eventos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}" type="text/css">
+</head>
+<body>
+    <!--APARTADO PARA ENCABEZADO-->
+    <div id="encabezado">
+        <br>
+        <p><a id="goMain" href="{{ url_for('index') }}">LOG IN</a></p>
+        <br>
+    </div>
+    <img src="../imagenes/logoEventos.png" alt="logo" align="right" width="150" height="90" />
+    <br />
+    <p><center><H1>{% block etiqueta %}{% endblock %}</H1></center></p>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>

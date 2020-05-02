@@ -1,0 +1,89 @@
+/*ENCABEZADO*/
+head {
+    top: 0px;
+    width: 100%;
+    font-family: fantasy;
+    background-color: white;
+}
+h1 {
+    color: rgb(168, 79, 61);
+}
+/*APARTADO PARA ENCABEZADO*/
+#encabezado {
+    top: 70px;
+    width: 100%;
+    left: 0;
+    background-color: rgb(29,45,60);
+    color: white;
+    text-align: right;
+}
+#encabezado > p > a:link{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#encabezado > p > a:visited{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#encabezado > p > a:active{
+    background-color: gray;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+#encabezado > p > a:hover{
+    background-color: gray;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/*SECCION DE FORMULARIO_INDEX*/
+div {
+    border-bottom: 1px solid #efefef;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+.title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;}
+    .radio-buttons label {
+    float: none;
+}
+.submit {
+    text-align: right;
+}
+
+/*SECCION DE PAGINAS*/
+#pagImg{
+    height: 100%;
+    width: 100%;
+    position: static;
+    left: 0;
+}
+#pagTxt{
+    position: absolute;
+    top: 420px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: #efefef;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/*FORMATO DE LINKS*/
+a:link, a:visited, a:active, a:hover{
+    text-decoration: none;
+    color: black;
+}

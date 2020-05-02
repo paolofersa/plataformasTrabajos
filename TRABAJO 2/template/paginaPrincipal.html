@@ -1,0 +1,16 @@
+{% extends "estructura.html" %}
+
+{% block etiqueta %}
+    PAGINA PRINCIPAL
+{% endblock %}
+
+{% block body %}
+    <!--SECCIÓN DE PÁGINA PRINCIPAL-->
+    <figure>
+        <img id="pagImg" src="../imagenes/paginaPrincipal.jpg" alt="paginaPrincipal">
+    </figure>
+    <div id="pagTxt">
+        <H2>BIENVENIDO {{ nombre }}!!!</H2>
+        <p>Este es una versión de prueba del sitio web donde se podrán visualizar eventos, inscribirse y participar de foros.</p>
+    </div>
+{% endblock %}
